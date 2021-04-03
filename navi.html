@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+        .navbar {
+            background-color:#403939;
+            padding: 3px; /*here is no problem*/
+            border-radius: 35px;
+        }
+        .navbar ol {
+            overflow: auto;
+        }
+        .navbar li {
+            float: left;
+            list-style: none;
+        }
+        .navbar li a {
+            
+            text-decoration: none;
+            color: white;
+            color: white;
+            padding: 40px;
+            font-size: 19px;
+        }
+       .navbar li a:hover {
+           color: blue;
+       }
+        
+        .container {
+            margin-top: 0px;
+        }
+        .search {
+            padding-left: 1000px;
+        }
+    </style>
+</head>
+<body>
+  
+      <header>
+          <nav class="navbar">
+              <ol>
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">servise</a></li>
+                  <li><a href="#">contact us</a></li>
+                  <form action="backend.php">
+                      <div class="search">
+                          <input type="text" placeholder="Search">
+                      </div>
+
+                  </form>
+              </ol>
+          </nav>
+      </header>
+
+ 
+</body>
+</html>
