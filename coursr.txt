@@ -35,6 +35,20 @@ eleven tutorial finished
 34 tutorial finished
 35 tutorial finished
 36 tutorial finished
-37 tutorial continue 5:31
+37 tutorial finished
+38 tutorial finished
+
+
+39 tutorial finished  responsible {macking a web site}
+
+grid {
+40 tutorial  started
+41 tutorial not started
+42 tutorial not started
+43 tutorial not started
+44 tutorial not started
+45 tutorial not started
+
+}
 
 
