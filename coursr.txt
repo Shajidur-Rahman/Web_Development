@@ -42,10 +42,10 @@ eleven tutorial finished
 39 tutorial finished  responsible {macking a web site}
 
 grid {
-40 tutorial  started
-41 tutorial not started
-42 tutorial not started
-43 tutorial not started
+41 tutorial finished
+40 tutorial finished
+42 tutorial finished
+43 tutorial finished
 44 tutorial not started
 45 tutorial not started
 
