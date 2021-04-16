@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css leyout </title>
+    <style>
+        .container {
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer '
+            ;
+        }
+
+        .box {
+            background-color: brown;
+            border: 2px solid black;
+        }
+
+        #navbar {
+            grid-area: navbar;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+
+        }
+        #navbar ul {
+            display: flex;
+        }
+        #navbar ul li {
+            padding-right: 10px;
+            list-style: none;
+
+        }    
+   
+
+        #section {
+            grid-area: section;
+        }
+
+        #aside {
+            grid-area: aside;
+        }
+        footer {
+            grid-area: footer;
+        }
+    </style>
+</head>
+<a href="#"></a>
+<body>
+    <div class="container">
+        <div id="navbar" class="box">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+        <div id="section" class="box">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo iusto hic odit architecto commodi quisquam
+            accusantium nam? Quis, aliquid sint! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque asperiores labore officia quibusdam amet dolorem aspernatur ipsa dicta ullam rerum deleniti ipsam harum pariatur inventore quis laboriosam fugiat, consequatur sed cupiditate possimus explicabo dolores incidunt. Eius laboriosam rem voluptate, asperiores porro neque quaerat nulla odit, ullam dolore quod enim conseblanditiis porro, atque deserunt aliquid cupiditate pariatur, vel magni neque ex repellendus ea sunt quas accusamus. Dolor libero consequuntur laudantium asperiores esse ducimus quaerat, nisi magnam voluptatum maxime minima laborum assumenda! Quas odio in enim consectetur magnam impedit? Odio unde facere harum molestias explicabo debitis officia corrupti ipsum consequatur eveniet illo laborum alias velit ipsam quas delectus, eius incidunt maiores est voluptates natus quia dolores qui? Nostrum quas in alias quisquam architecto reprehenderit animi totam. Odio veniam soluta quis beatae voluptates est autem ea, aut saepe nobis, perferendis ut illo ipsum! Non nemo, error debitis harum culpa possimus.
+        </div>
+        <div id="aside" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus odit doloribus repudiandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto maxime corporis temporibus sunt deleniti perferendis voluptas assumenda praesentium aliquam atque aut quaerat, consectetur itaque nesciunt earum quam? Facere itaque ipsum accusamus vero unde! Tempora amet facere asperiores, assumenda eveniet corporis quae id repudiandae earum quis dolore sit quo quia voluptate quasi animi porro culpa corrupti aliquid veniam enim blanditiis quod, ipsum cum. Cumque corrupti eum dolore ex quaerat maiores? Veniam error eaque corporis perferendis dolores aliquam, molestiae enim debitis nesciunt a aliquid obcaecati fugit eveniet fuga dicta officia hic temporibus odio praesentium voluptatum iure architecto saepe totam ab. Quibusdam officia architecto corrupti culpa quidem aut quasi error eos, temporibus laborum unde cupiditate alias praesentium obcaecati nulla quam amet tenetur corporis? Architecto, tempora repellat minima veniam hic reprehenderit commodi? Natus quisquam quo numquam asperiores a porro, accusantium sed quam totam qui perferendis exercitationem quidem. Magni nobis animi est officiis architecto impedit? Fugiat ab earum blanditiis perspiciatis, quasi aut laborum eveniet, quisquam alias non nemo illo totam qui quibusdam fuga enim corrupti. Quos voluptatibus est rerum ab, et obcaecati consectetur maxime quis. Minus expedita nostrum iure incidunt eno, perferendis reiciendis amet ut quas dolorem impedit minima? Maxime, excepturi? Similique iure exercitationem natus quasi assumenda quaerat quisquam officia ab!</div>
+        <footer class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ducimus illum possimus.</footer>
+        <!-- <div class="box">items-1</div>
+        <div class="box">items-2</div>
+        <div class="box">items-3</div>
+        <div class="box">items-4</div>
+        <div class="box">items-5</div>
+        <div class="box">items-6</div>
+        <div class="box">items-7</div>
+        <div class="box">items-8</div>
+        <div class="box">items-9</div>
+        <div class="box">items-10</div>
+        <div class="box">items-11</div>
+        <div class="box">items-12</div>
+        <div class="box">items-13</div>
+        <div class="box">items-14</div>
+    </div> -->
+</body>
+
+</html>

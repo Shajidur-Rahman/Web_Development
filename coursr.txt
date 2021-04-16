@@ -41,12 +41,22 @@ eleven tutorial finished
 
 39 tutorial finished  responsible {macking a web site}
 
-grid {
+grid  very very very very important  {
 41 tutorial finished
 40 tutorial finished
 42 tutorial finished
 43 tutorial finished
-44 tutorial not started
+44 tutorial finished
+45 tutorial finished
+
+}
+
+js {
+46 tutorial started
+45 tutorial not started
+45 tutorial not started
+45 tutorial not started
+45 tutorial not started
 45 tutorial not started
 
 }
