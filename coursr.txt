@@ -52,12 +52,12 @@ grid  very very very very important  {
 }
 
 js {
-46 tutorial started
-45 tutorial not started
-45 tutorial not started
-45 tutorial not started
-45 tutorial not started
-45 tutorial not started
+46 tutorial finished
+47 tutorial finished
+48 tutorial started
+49 tutorial not started
+50 tutorial not started
+51 tutorial not started
 
 }
 
